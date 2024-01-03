@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/body.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/app.css">
+    <script defer src="./listeners.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div id="configs">
+                <button id="hideInfo" class="headerButton">
+                    <img id="hideIcon" class="buttonIcon" src="style/images/hideIcon.svg">
+                </button>
+                <button id="start" class="headerButton">
+                    <img id="startIcon" class="buttonIcon" src="style/images/startIcon.svg">
+                </button>
+
+                <input id="user" class="headerInput" placeholder="Usuário">
+                <input id="password" class="headerInput" placeholder="Senha">
+                <input id="IP" class="headerInput" placeholder="Endereço IP">
+                <input id="PORT" class="headerInput" placeholder="Porta">
+            </div>
+
+            <div id="actionButtons">
+                <!--<button id="minimize" class="actionButton">
+                    <img id="minimizeIcon" class="actionIcon" src="style/images/minimizeIcon.svg">
+                </button>
+
+                <button id="maximize" class="actionButton">
+                    <img id="maximizeIcon" class="actionIcon" src="style/images/maximizeIcon.svg">
+                </button>
+
+                <button id="close" class="actionButton">
+                    <img id="closeIcon" class="actionIcon" src="style/images/closeIcon.svg">
+                </button>-->
+                <button id="knowMoreButton" class="headerButton">
+                    <img id="knowMoreIcon" class="buttonIcon" src="./style/images/moreInfoIcon.svg">
+                </button>
+            </div>
+
+        </header>
+        <div id="content">
+            <div id="cameraWrapper">
+                <div class="cameraView jsmpeg" data-url="ws://localhost:9999"></div>
+                <div class="cameraView jsmpeg" data-url="ws://localhost:9998"></div>
+                <div class="cameraView jsmpeg" data-url="ws://localhost:9997"></div>
+                <div class="cameraView jsmpeg" data-url="ws://localhost:9996"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./works/jsmepg.js"></script>
+    <script defer> const { presets } = require('./works/actions.js'); presets() </script>
+</body>
+</html>

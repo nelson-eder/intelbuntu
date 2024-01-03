@@ -1,0 +1,22 @@
+{
+  "name": "intelbuntu",
+  "homepage": "https://github.com/nelson-eder/intelbuntu",
+  "version": "1.0.0",
+  "description": "A **NOT OFICIAL** RTSP camera viewer for Intelbras services. Linux users now can see yours Intelbras camera streams.",
+  "author": {
+    "name": "Nelson Eder",
+    "email": "rolematsites@gmail.com",
+    "url": "https://github.com/nelson-eder/intelbuntu"
+  },
+  "dependencies": {
+    "electron": "^28.1.0",
+    "electron-json-storage": "^4.6.0",
+    "electron-packager": "^17.1.2",
+    "node-rtsp-stream": "^0.0.9",
+    "ws": "^8.16.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  }
+}

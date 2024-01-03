@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #2F2F2F;
+    -webkit-app-region: drag;
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 1px solid #414141;*/
+    border-bottom: 1px solid #00963A;
+    padding: 5px 10px;
+}
+
+#configs {
+    display: flex;
+    gap: 10px;
+}
+.headerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: #3f3f3f00;
+    border-radius: 2px;
+    -webkit-app-region: none;
+}
+.headerButton:hover {
+    background-color: #3f3f3f;
+
+}
+.buttonIcon {
+    width: 16px;
+}
+#startIcon {
+    width: 12px;
+}
+#knowMoreIcon {
+    width: 10px
+}
+.headerInput {
+    width: 120px;
+    height: 24px;
+    background-color: #262626;
+    border-radius: 2px;
+    -webkit-app-region: none;
+    border: 0.5px solid #1c1c1c;
+    user-select: all;
+}
+
+
+
+
+
+
+#actionButtons {
+    display: flex;
+    gap: 10px;
+}
+.actionButton {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    background-color: #3f3f3f;
+    -webkit-app-region: none;
+}
+
+.actionIcon {
+    width: 8px;
+}
