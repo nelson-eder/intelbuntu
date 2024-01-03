@@ -1,4 +1,6 @@
 # What is Intelbuntu?
+![Project banner](./style/images/intelbuntu_banner.png)
+
 Intelbuntu is a open-source camera viewer base in RTSP, for Intelbras devices.
 
 You can now see your Intelbras cameras at your Linux device.
@@ -10,6 +12,8 @@ Windows softwares are not avalaible for linux users... :(
 So, this user get a idea, he thinks: "Hey, i'm a linux user and i know make code. I have the power of code creations, so i'll make my own app for resolve this problem!"
 
 And there born the Intelbuntu (ah, the linux user use Ubuntu xD)
+
+![Project screenshot](./style/images/screenshot.png)
 
 ## How to install
 
@@ -25,7 +29,7 @@ npx electron-packager . intelbuntu --linux --asar
 ```
 For this two methods, make sure install the NPM and NodeJs in your computer, and dont forget install all the npm dependencies:
 ```
-npm install --dev
+npm install
 ```
 ## How to use
 
